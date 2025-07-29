@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Color Picker</title>
+</head>
+<body id="bodyBackground">
+  <h1>JavaScript Color Picker</h1>
+  <p>Choose a gradient linear background with your choice</p>
+  <div class="container">
+    <input type="color" id="firstColor" value="#008000">
+    <input type="color" id="secondColor" value="#ff0000">
+    <p id="backgroundResult"></p>
+
+    <div>
+    <label><input type="radio" name="deg" id="deg45" value="45"> 45°</label><br>
+    <label><input type="radio" name="deg" id="deg90" value="90" checked> 90°</label><br>
+    <label><input type="radio" name="deg" id="deg180" value="180"> 180°</label>
+
+    </div>
+    <button id="reset">reset</button>
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
